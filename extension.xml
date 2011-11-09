@@ -1,0 +1,32 @@
+<extension xmlns="http://ns.adobe.com/air/extension/2.5">
+	<id>se.riol.anes.proximitysensor</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>proximitysensor.jar</nativeLibrary>
+				<initializer>se.riol.anes.proximitysensor.ProximitySensorExtension</initializer>
+				<finalizer>se.riol.anes.proximitysensor.ProximitySensorExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+
+        <platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libProximitySensorANE.a</nativeLibrary>
+				<initializer>ANEInitializer</initializer>
+				<finalizer>ANEFinalizer</finalizer>
+			</applicationDeployment>
+            <!--
+            <applicationDeployent>
+                <nativeLibrary>libProximitySensorANE.a</nativeLibrary>
+                <initializer>ANEInitializer</initializer>
+                <finalizer>ANEFinalizer</finalizer>
+            </applicationDeployment>
+            -->
+        </platform>
+
+        <platform name="default">
+            <applicationDeployment/>
+        </platform>
+	</platforms>
+</extension>
