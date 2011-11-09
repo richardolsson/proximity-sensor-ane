@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF823845145E7FA600CAFA87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF823844145E7FA600CAFA87 /* Foundation.framework */; };
+		DF823868145E838700CAFA87 /* ProximitySensorANE.m in Sources */ = {isa = PBXBuildFile; fileRef = DF823866145E838700CAFA87 /* ProximitySensorANE.m */; };
+		DF82386B145E83D700CAFA87 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF82386A145E83D700CAFA87 /* FlashRuntimeExtensions.h */; };
+		DF823874145E98FA00CAFA87 /* DummyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DF823872145E98FA00CAFA87 /* DummyViewController.h */; };
+		DF823875145E98FA00CAFA87 /* DummyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF823873145E98FA00CAFA87 /* DummyViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF823841145E7FA600CAFA87 /* libProximitySensorANE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libProximitySensorANE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF823844145E7FA600CAFA87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF823848145E7FA600CAFA87 /* ProximitySensorANE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProximitySensorANE-Prefix.pch"; sourceTree = "<group>"; };
+		DF823866145E838700CAFA87 /* ProximitySensorANE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProximitySensorANE.m; path = ProximitySensorANE.xcodeproj/ProximitySensorANE.m; sourceTree = "<group>"; };
+		DF82386A145E83D700CAFA87 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		DF823872145E98FA00CAFA87 /* DummyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DummyViewController.h; path = ProximitySensorANE.xcodeproj/DummyViewController.h; sourceTree = "<group>"; };
+		DF823873145E98FA00CAFA87 /* DummyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DummyViewController.m; path = ProximitySensorANE.xcodeproj/DummyViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF82383E145E7FA600CAFA87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF823845145E7FA600CAFA87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF823836145E7FA600CAFA87 = {
+			isa = PBXGroup;
+			children = (
+				DF823872145E98FA00CAFA87 /* DummyViewController.h */,
+				DF823873145E98FA00CAFA87 /* DummyViewController.m */,
+				DF823866145E838700CAFA87 /* ProximitySensorANE.m */,
+				DF823846145E7FA600CAFA87 /* ProximitySensorANE */,
+				DF823843145E7FA600CAFA87 /* Frameworks */,
+				DF823842145E7FA600CAFA87 /* Products */,
+				DF82386A145E83D700CAFA87 /* FlashRuntimeExtensions.h */,
+			);
+			sourceTree = "<group>";
+		};
+		DF823842145E7FA600CAFA87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF823841145E7FA600CAFA87 /* libProximitySensorANE.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF823843145E7FA600CAFA87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF823844145E7FA600CAFA87 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF823846145E7FA600CAFA87 /* ProximitySensorANE */ = {
+			isa = PBXGroup;
+			children = (
+				DF823847145E7FA600CAFA87 /* Supporting Files */,
+			);
+			path = ProximitySensorANE;
+			sourceTree = "<group>";
+		};
+		DF823847145E7FA600CAFA87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF823848145E7FA600CAFA87 /* ProximitySensorANE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DF82383F145E7FA600CAFA87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF82386B145E83D700CAFA87 /* FlashRuntimeExtensions.h in Headers */,
+				DF823874145E98FA00CAFA87 /* DummyViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DF823840145E7FA600CAFA87 /* ProximitySensorANE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF82384B145E7FA600CAFA87 /* Build configuration list for PBXNativeTarget "ProximitySensorANE" */;
+			buildPhases = (
+				DF82383D145E7FA600CAFA87 /* Sources */,
+				DF82383E145E7FA600CAFA87 /* Frameworks */,
+				DF82383F145E7FA600CAFA87 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProximitySensorANE;
+			productName = ProximitySensorANE;
+			productReference = DF823841145E7FA600CAFA87 /* libProximitySensorANE.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF823838145E7FA600CAFA87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Richard Olsson Web Development AB";
+			};
+			buildConfigurationList = DF82383B145E7FA600CAFA87 /* Build configuration list for PBXProject "ProximitySensorANE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF823836145E7FA600CAFA87;
+			productRefGroup = DF823842145E7FA600CAFA87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF823840145E7FA600CAFA87 /* ProximitySensorANE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF82383D145E7FA600CAFA87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF823868145E838700CAFA87 /* ProximitySensorANE.m in Sources */,
+				DF823875145E98FA00CAFA87 /* DummyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF823849145E7FA600CAFA87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF82384A145E7FA600CAFA87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		DF82384C145E7FA600CAFA87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/ProximitySensorANE.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProximitySensorANE/ProximitySensorANE-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF82384D145E7FA600CAFA87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/ProximitySensorANE.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProximitySensorANE/ProximitySensorANE-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF82383B145E7FA600CAFA87 /* Build configuration list for PBXProject "ProximitySensorANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF823849145E7FA600CAFA87 /* Debug */,
+				DF82384A145E7FA600CAFA87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF82384B145E7FA600CAFA87 /* Build configuration list for PBXNativeTarget "ProximitySensorANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF82384C145E7FA600CAFA87 /* Debug */,
+				DF82384D145E7FA600CAFA87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF823838145E7FA600CAFA87 /* Project object */;
+}
