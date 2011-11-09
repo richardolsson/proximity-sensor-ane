@@ -1,0 +1,13 @@
+This is a so called Native Extension for Adobe AIR 3, which will allow you
+to read the output of the proximity sensor on devices which have one. 
+
+Both Android and iOS are supported, as well as a "default" implementation
+which will never dispatch any events (necessary to run app in the simulator
+on desktop.) 
+
+The "android" and "ios" contain the native libraries for Android (java) and
+iOS (C/ObjC) respectively. The "default" folder contains the dummy AS3
+implementation, and the "as" folder contains the AS3 library interface.
+
+For more information on Native Extensions, see the page at the following URL:
+http://www.adobe.com/devnet/air/native-extensions-for-air.html
