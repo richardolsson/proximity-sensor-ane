@@ -22,5 +22,25 @@ se.riol.anes.proximitysensor package. It has a start() and a stop() method
 to start and stop proximity sensor polling respectively. When the sensor
 detects a change in proximity, a StatusEvent will be dispatched.
 
+Here's some very basic sample code, in lieu of a proper example:
+
+import se.riol.anes.proximitysensor.ProximitySensorInterface;
+
+var proximity : ProximitySensorInterface;
+proximity.addEventListener(StatusEvent.STATUS, handleProximity);
+proximity.start();
+
+function handleProximity(ev : StatusEvent) : void
+{
+    trace('proximity: '+ev.level);
+}
+
+
 # How to help develop
 See README files in the folders for the respective platforms/targets.
+
+
+# TODO:
+- Clean up interface (possibly rename main class)
+- Replace with better event type than the standard ANE StatusEvent
+- Write build instructions for all platforms.
