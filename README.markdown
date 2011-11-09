@@ -17,23 +17,23 @@ In the bin folder you will find both an ANE file and a SWC file. Configure
 your IDE (e.g. Flash Builder 4.6) to use the ANE file while packaging, and
 add the SWC file to your SWC path. That should be enough to set it up.
 
-The class to use is called ProximitySensorInterface and resides in the 
-se.riol.anes.proximitysensor package. It has a start() and a stop() method
-to start and stop proximity sensor polling respectively. When the sensor
-detects a change in proximity, a StatusEvent will be dispatched.
+The class to use is called `ProximitySensorInterface` and resides in the 
+`se.riol.anes.proximitysensor package`. It has a `start()` and a `stop()`
+method to start and stop proximity sensor polling respectively. When the 
+sensor detects a change in proximity, a `StatusEvent` will be dispatched.
 
 Here's some very basic sample code, in lieu of a proper example:
 
 import se.riol.anes.proximitysensor.ProximitySensorInterface;
 
-var proximity : ProximitySensorInterface;
-proximity.addEventListener(StatusEvent.STATUS, handleProximity);
-proximity.start();
-
-function handleProximity(ev : StatusEvent) : void
-{
-    trace('proximity: '+ev.level);
-}
+    var proximity : ProximitySensorInterface;
+    proximity.addEventListener(StatusEvent.STATUS, handleProximity);
+    proximity.start();
+    
+    function handleProximity(ev : StatusEvent) : void
+    {
+        trace('proximity: '+ev.level);
+    }
 
 
 # How to help develop
