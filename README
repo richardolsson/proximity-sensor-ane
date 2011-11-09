@@ -11,3 +11,16 @@ implementation, and the "as" folder contains the AS3 library interface.
 
 For more information on Native Extensions, see the page at the following URL:
 http://www.adobe.com/devnet/air/native-extensions-for-air.html
+
+# How to use
+In the bin folder you will find both an ANE file and a SWC file. Configure 
+your IDE (e.g. Flash Builder 4.6) to use the ANE file while packaging, and
+add the SWC file to your SWC path. That should be enough to set it up.
+
+The class to use is called ProximitySensorInterface and resides in the 
+se.riol.anes.proximitysensor package. It has a start() and a stop() method
+to start and stop proximity sensor polling respectively. When the sensor
+detects a change in proximity, a StatusEvent will be dispatched.
+
+# How to help develop
+See README files in the folders for the respective platforms/targets.
