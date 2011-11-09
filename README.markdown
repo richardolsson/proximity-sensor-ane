@@ -27,6 +27,7 @@ Here's some very basic sample code, in lieu of a proper example:
 import se.riol.anes.proximitysensor.ProximitySensorInterface;
 
     var proximity : ProximitySensorInterface;
+    proximity = new ProximitySensorInterface();
     proximity.addEventListener(StatusEvent.STATUS, handleProximity);
     proximity.start();
     
